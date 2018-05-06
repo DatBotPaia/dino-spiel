@@ -17,3 +17,4 @@ func new_game():
 	print("Hallo Andy!")
 	$Player01.start($StartPosition.position)
 	$BackgroundMusic.play()
+	print("Hallo mein Löbstes!")
