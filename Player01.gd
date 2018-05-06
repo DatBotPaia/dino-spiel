@@ -1,7 +1,10 @@
-extends Area2D
+extends KinematicBody2D
 
 export (int) var SPEED
-signal hit
+
+var inventory_space = 5
+var inventory = []
+
 var screensize
 
 func _ready():
@@ -41,24 +44,18 @@ func _process(delta):
 		$AnimatedSprite.flip_v = false
 		$AnimatedSprite.flip_h = velocity.x < 0
 
-
-
-func _on_Player01_body_entered(body):
-	emit_signal("hit")
-	$CollisionShape2D.disabled = true
-
-func _on_Player01_body_exited(body):
-	$CollisionShape2D.disabled = false
-
-
+func add_item(itemname):
+	if inventory_space > 0:
+		print("I got an item: ", itemname)
+		inventory.append(itemname)
+		inventory_space -= 1
+	else:
+		print("No space left :( I currently hold:")
+		for item in inventory:
+			print("- ", item)
 
 func start(pos):
 	position = pos
 	show()
 	$CollisionShape2D.disabled = false
-
-
-func _on_Player01_hit():
-	pass
-#	$HitChime.play()
 
