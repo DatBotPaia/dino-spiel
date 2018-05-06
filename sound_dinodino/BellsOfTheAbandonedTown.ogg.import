@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BellsOfTheAbandonedTown.ogg-e2af328b949faeafcc05d8339120e061.oggstr"
+
+[deps]
+
+source_file="res://sound_dinodino/BellsOfTheAbandonedTown.ogg"
+source_md5="37050cedab14d4df894fef6f096c51a6"
+
+dest_files=[ "res://.import/BellsOfTheAbandonedTown.ogg-e2af328b949faeafcc05d8339120e061.oggstr" ]
+dest_md5="1baf48b6648b5c2694b041c2e4becd99"
+
+[params]
+
+loop=true
+loop_offset=0

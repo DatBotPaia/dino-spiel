@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/MagicWand.wav-7eaf4f54762d2f6aa4dacb96b1290588.sample"
+
+[deps]
+
+source_file="res://sound_dinodino/MagicWand.wav"
+source_md5="dd8f419231ebca8424d4008980bfdda4"
+
+dest_files=[ "res://.import/MagicWand.wav-7eaf4f54762d2f6aa4dacb96b1290588.sample" ]
+dest_md5="a920ca26805c4390907f6b843a5f6bf1"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
